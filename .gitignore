@@ -1,0 +1,36 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ansible
+*.retry
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Terragrunt
+.terragrunt-cache/
+
+# Terratest
+**/vendor/
+
+# Molecule
+.molecule/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
