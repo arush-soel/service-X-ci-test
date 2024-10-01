@@ -1,5 +1,5 @@
 ---
-- hosts: app_servers
+- hosts: 34.136.194.68
   become: true
   roles:
     - web_server
